@@ -25,7 +25,6 @@ namespace aspnettcoreapp
                 var currentDir = di.RootDirectory;
                 if (di.Name == "/")
                 {
-                    //for(int i=0; i<pathParts.Length; i++)
                     foreach (var dir in pathParts)
                     {
                         if (dir == "")
